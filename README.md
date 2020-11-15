@@ -27,13 +27,13 @@ Scrum ceremonies include:
 The Scrum ceremonies are designed to incorporate the values of agile, by creating an atmosphere which promotes collaboration through daily scrum, transparency via sprint backlogs ceremonies such as the sprint planning meeting and sprint review, which allows stakeholders to attend and review alongside the development team. The sprint retrospective promotes continuous improvement which is another agile principle.
 
 The final factor of scrum are artifacts. Artifacts enable the scrum team and stakeholders to understand the development of the product and identify what tasks have been completed and what is yet to be completed. There are 3 main artifacts. These are:  
-* **Product Backlog – This is an ordered list of everything that is to be completed in a project. This includes features, functions tests and requirements of the product. This list is dynamic therefore constantly evolving throughout the project.
+* **Product Backlog** – This is an ordered list of everything that is to be completed in a project. This includes features, functions tests and requirements of the product. This list is dynamic therefore constantly evolving throughout the project.
 * **Sprint Backlog** – The sprint backlog contains everything that is to be completed in ag given sprint as well as a plan for delivering the increment.
 * **Increment** – This is the sums of all the product backlog item completed during the sprint, and all previous sprints. The increment must meet the ‘Definition of Done’ (DOD) at the end of a sprint. The Definition of Done is a predefined acceptance criterion which each product backlog item must meet. Theoretically each increment should be potentially releasable if it has met the DOD. 
-Tools such as Trello, Jira, monday.com and more can be used for practical implementation of scrum. I have experiences in using Trello for the purposes of projects. One such example is a small project in which i was tasked with the creation of a bread_factory using Object Oriented Programming. The Trello board can be configured to create separate columns for the product backlog, sprint backlog and a done column to represent the increment. In order to complete the task, a set of user stories were created to represent the requirements. These guided the functions and classes created in the Python programme. The result was a python program which satisfied the user stories and also utilised Test Driven Development to ensure the program worked as one would expect. 
+Tools such as Trello, Jira, monday.com and more can be used for practical implementation of scrum. I have experiences in using Trello for the purposes of projects. One such example is a small project in which i was tasked with the creation of a bread factory using Object Oriented Programming. The Trello board can be configured to create separate columns for the product backlog, sprint backlog and a done column to represent the increment. In order to complete the task, a set of user stories were created to represent the requirements. These guided the functions and classes created in the Python programme. The result was a python program which satisfied the user stories and also utilised Test Driven Development to ensure the program worked as one would expect. 
 
 ### What are the differences between Agile and Scrum? / How are the two related?
-Agile is a methodology used in software development. Iteration lies at the heart of the Agile methodology. Meanwhile, scrum is a framework used to implement agile. Other frameworks include Kanban which is a more relaxed framework but still has agile values such as communication and transparency at the core. I have experienced using scrum for the purposes of small projects. One such example is  
+Agile is a methodology used in software development. Iteration lies at the heart of the Agile methodology. Meanwhile, scrum is a framework used to implement agile. Other frameworks include Kanban which is a more relaxed framework but still has agile values such as communication and transparency at the core. I have experienced using scrum for the purposes of small projects. One such example is a project in which i was asked to create a calculator programme in python utilising OOP. The Trello board was used to define a definition of done and the requirements of the project. While the task was in progress, it remained in the sprint backlog column. Once completed, the task was moved to the done column therein reflecting scrum artifacts. 
 
 ### What are the 3 amigos
 The 3 amigos refer to a practice in Agile wherein the aim is to bridge departments in the company. This allows for a more holistic Definition of Done. The 3 amigos are typically:
@@ -63,10 +63,11 @@ I have experience in using these actions to create tables and query within the n
 ### What is OOP and what are the 4 pillars? Give an example of how you implemented OOP
 OOP is an acronym for Object Oriented Programming.
 The 4 pillars are:
-1. Inheritance 
-2. Encapsulation
-3. Abstraction
-4. Polymorphism  
+  1. Inheritance  
+  2. Encapsulation
+  3. Abstraction
+  4. Polymorphism    
+   
 The purpose of OOP is to prevent developers from rewriting a piece of code that already exists.We wish to automate routine tasks. In OOP, classes are used to represent concepts and objects are used to create instances of classes. OOP lies at the heart of Python with almost every thing being an object, from strings to dictionaries. Classes consist of attributes and methods. Attributes are the associated characteristics while methods are the associated functions. 
 I have used OOP for several projects. One such example was a scrabble score calculator which could take an input and calculate the score the word would receive in a game of scrabble. Classes were used to define the score categories i.e one point letters, two points letters etc. Then simple control flow was used to determine the letters in the input and assign the relevant score. As a result, score categories could be assigned in one class and imported whenever required. 
 
