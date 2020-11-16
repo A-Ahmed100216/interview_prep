@@ -70,8 +70,9 @@ The 4 pillars are:
    
 The purpose of OOP is to prevent developers from rewriting a piece of code that already exists.We wish to automate routine tasks. In OOP, classes are used to represent concepts and objects are used to create instances of classes. OOP lies at the heart of Python with almost every thing being an object, from strings to dictionaries. Classes consist of attributes and methods. Attributes are the associated characteristics while methods are the associated functions. 
 I have used OOP for several projects. One such example was a scrabble score calculator which could take an input and calculate the score the word would receive in a game of scrabble. Classes were used to define the score categories i.e one point letters, two points letters etc. Then simple control flow was used to determine the letters in the input and assign the relevant score. As a result, score categories could be assigned in one class and imported whenever required. 
-
-
+### What is TDD
+TDD is an acronym for test driven development which entails writing tests for a project, prior to writing the actual code. These tests will initially fail and lead to the development of the code, hence the name, test driven development. 
+I have utilised TDD for creating a bread factory programme. This entailed determining requirements from a set of  user stories to create some tests which will check whether the requirements are being adhered to. Initially the tests failed as the code had not yet been written. Following this, the code was written using OOP. Once the code was written, the tests were re-run and successful. 
 ## DevOps
 ### What is DevOps?
 DevOps bridges the gap between development and operations teams enabling them to work closer together, share responsibility, deploy infrastructure as a code, and automate the pipeline.
