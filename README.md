@@ -57,9 +57,11 @@ Operations which can be performed on a database are typically categorised into 4
 * DQL - Data Query Language - SELECT
 * DCL - Data Control Language - GRANT, REVOKE
 I have experience in using these actions to create tables and query within the northwind database which is the default database within Microsoft Azure. One task I was asked to complete was CRUD a database within Python and then import data from a csv file. This task entailed creating a table within the database, importing data and allowing users to query via a specific search criterion, in this case, movie name. Users, could also implement DML and update the table with their own inputs. The result of this task was a functioning movie table which users could access within python. 
-
+I also have experince in using SQL with Python in a project wherein i created an airline booking system.
 
 ## Python
+### What is DRY
+DRY is a Python acronym for Don't Repeat Yourself
 ### What is OOP and what are the 4 pillars? Give an example of how you implemented OOP
 OOP is an acronym for Object Oriented Programming.
 The 4 pillars are:
@@ -67,7 +69,6 @@ The 4 pillars are:
   2. Encapsulation
   3. Abstraction
   4. Polymorphism    
-   
 The purpose of OOP is to prevent developers from rewriting a piece of code that already exists.We wish to automate routine tasks. In OOP, classes are used to represent concepts and objects are used to create instances of classes. OOP lies at the heart of Python with almost every thing being an object, from strings to dictionaries. Classes consist of attributes and methods. Attributes are the associated characteristics while methods are the associated functions. 
 I have used OOP for several projects. One such example was a scrabble score calculator which could take an input and calculate the score the word would receive in a game of scrabble. Classes were used to define the score categories i.e one point letters, two points letters etc. Then simple control flow was used to determine the letters in the input and assign the relevant score. As a result, score categories could be assigned in one class and imported whenever required. 
 ### What is TDD
